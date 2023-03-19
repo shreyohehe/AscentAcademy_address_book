@@ -31,12 +31,13 @@ window.onload=function() {
     function addbook() {
         var isnull=fname.value!='' && phn.value!='' && addrss.value!='' && cite.value!='';
         if(isnull){
-            var obj= new jsonfile(fname.value,phn.value,addrss.value,cite.value);
+            var obj= new jsonfile(fname.value,addrss.value,phn.value,cite.value);
             addressb.push(obj);
             localStorage['addressbook']=JSON.stringify(addressb);
             addform.style.display="none";
-            clear();
             showbook();
+            clear();
+           
             
         }
 
