@@ -89,7 +89,8 @@ textarea{
     font-weight:bold;
 }
 
-.entry {
+/* .entry {
+    color: black;
     background:rgb(230,230,230);
     width:960px;
     height:40px;
@@ -144,4 +145,4 @@ textarea{
     background:rgb(255,100,100);
     border-radius:8px;
     text-decoration:none;
-}
+} */
