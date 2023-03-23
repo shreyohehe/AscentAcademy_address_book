@@ -89,8 +89,7 @@ textarea{
     font-weight:bold;
 }
 
-/* .entry {
-    color: black;
+.entry {
     background:rgb(230,230,230);
     width:960px;
     height:40px;
@@ -104,6 +103,11 @@ textarea{
     padding:11px;
 }
 
+.entry .email {
+    width:200px;
+    float:left;
+    padding:11px;
+}
 
 
 .entry .phone {
@@ -112,19 +116,19 @@ textarea{
     padding:11px;
 }
 
-.entry .addressppl {
+.entry .address {
     width:250px;
     float:left;
     padding:11px;
 }
 
-.entry .cit {
+.entry .city {
     width:100px;
     float:left;
     padding:11px;
 }
 
-.entry .delete {
+.entry .del {
     width:30px;
     float:left;
     padding:9px;
@@ -137,7 +141,7 @@ textarea{
     text-shadow:0px 0px 1px rgba(0,0,0,0.4);
 }
 
-.entry .delete a {
+.entry .del a {
     font-family:sans-serif;
     color:#FFF;
     font-size:12px;
@@ -145,4 +149,4 @@ textarea{
     background:rgb(255,100,100);
     border-radius:8px;
     text-decoration:none;
-} */
+}
